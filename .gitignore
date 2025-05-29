@@ -49,5 +49,13 @@ po/*~
 rsconnect/
 
 .DS_Store
-
-.vscode
+.quarto
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+inst/doc
+docs
+pkgdown
