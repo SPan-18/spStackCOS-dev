@@ -48,7 +48,6 @@ extern "C" {
     double phi_s = REAL(phi_s_r)[0];
     double phi_t = REAL(phi_t_r)[0];
     double nu = REAL(nu_r)[0];
-    double deltasq = REAL(deltasq_r)[0];
     int nSamples = INTEGER(nSamples_r)[0];
 
     // Handle inputs for prediction
