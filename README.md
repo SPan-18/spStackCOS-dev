@@ -1,6 +1,6 @@
 # spStackCOS-dev
 
-**An R package for Bayesian hierarchical regression of spatially-temporally misaligned outcome and exposure data.**
+**An R package for hierarchical regression of spatially-temporally misaligned outcome and exposure data using Bayesian predictive stacking.**
 
 Spatial and temporal misalignment refers to the setting in which different variables are observed over incompatible spatial supports and/or at asynchronous time points or intervals. Such misalignment is common in studies of associations between human health outcomes and environmental exposures, such as air pollution indicators, which are often measured at different spatial and temporal resolutions. In this work, we develop
 
@@ -9,7 +9,7 @@ Spatial and temporal misalignment refers to the setting in which different varia
 
 ## ✨ Features
 
-| Functionalities                                                                               | Supported |
+| Functionalities                                                                               | Support   |
 |-----------------------------------------------------------------------------------------------|:---------:|
 | Fit spatially point-referenced, temporally aggregated exposure data                           | ✅        |
 | Perform predictive stacking for Bayesian inference                                            | ✅        |
@@ -20,5 +20,5 @@ Spatial and temporal misalignment refers to the setting in which different varia
 ## 🔧 Installation
 
 ```r
-devtools::install_github("SPan-18/spStackCOS")
+devtools::install_github("SPan-18/spStackCOS-dev")
 ```
