@@ -1,4 +1,4 @@
-# spStackCOS-dev
+# spStackCOS: Bayesian predictive stacking for spatial-temporal change of support models
 
 **An R package for hierarchical regression of spatially-temporally misaligned outcome and exposure data using Bayesian predictive stacking.**
 
