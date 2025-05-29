@@ -1,0 +1,24 @@
+Package: spStackCOS
+Type: Package
+Version: 0.0.1
+Title: Bayesian Predictive Stacking for Spatially-Temporally Misaligned Data
+Authors@R: c(
+    person("Soumyakanti", "Pan", role = c("aut", "cre"),
+    email = "span18@ucla.edu", comment = c(ORCID = "0009-0005-9889-7112")),
+    person("Sudipto", "Banerjee", role = "aut", email = "sudipto@ucla.edu"))
+Description: Fits modular Bayesian inference for spatially-temporally misaligned 
+    data. This package is dedicated towards supplementing the article - Pan and 
+    Banerjee (2025).
+Imports:
+    dplyr,
+    magrittr,
+    sf
+NeedsCompilation: yes
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 2.10)
+Language: en-US
