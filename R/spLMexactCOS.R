@@ -92,6 +92,7 @@ spLMexactCOS <- function(X, Xcov, X_spcoords, X_timecoords,
     Xpred_polycov <- 0
     Xpred_polycoords <- 0
     Xpred_polytimecoords <- 0
+    poly_areas <- 0
     id_map <- 0
     montecarlo_coords <- 0
     nMCpoly_coords <- 0
